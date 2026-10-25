@@ -2,6 +2,8 @@
 # This pipeline needs the following tasks from Tekton Catalog
 #   - git-clone
 #   - flake8
+#   - buildah
+#   - openshift-client
 #
 ---
 apiVersion: tekton.dev/v1beta1
